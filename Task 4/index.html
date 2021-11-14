@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div style="width: 600px; margin: 0px auto;">
+        <h2>Formulario</h2>
+        <form action="registro.php" method="get">
+            <table>
+                <tr>
+                    <td><label for="nombre">Nombre y apellidos</label></td>
+                    <td><input type="text" name="nombre y apellidos" id="nombre y apellidos"
+                                required
+                                placeholder="Nombre y Apellidos" 
+                                autofocus
+                                size="25"
+                                maxlength="35">
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="edad">Edad</label></td>
+                    <td><input type="number" name="edad" id="edad"
+                                required
+                                value="18"
+                                maxlength="2"
+                                step="1"></td>
+                </tr>
+                <tr>
+                    <td><label for="dirección">Dirección</label></td>
+                    <td>
+                        <input type="text" name="text" id="text" 
+                                value="C/"
+                                placeholder="Dirección" 
+                                size="35"
+                                maxlength="35">
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="Ciudad">Ciudad</label></td>
+                    <td>
+                        <select name="ciudad" id="ciudad">
+                            <option value="-1">Seleccione ciudad</option>
+                                <option value="41">Sevilla</option>
+                                <option value="40">Córdoba</option>
+                                <option value="39">Cádiz</option>
+                                <option value="27">Huelva</option>
+                                <option value="27">Jaén</option>
+                                <option value="27">Granada</option>
+                                <option value="27">Almeria</option>
+                                <option value="27">Málaga</option>                                                                                   
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="telefono">Teléfono</label></td>
+                    <td>
+                        <input type="number" name="numero" id="telefono"
+                                placeholder="Número de teléfono"
+                                size="12"
+                                maxlength="12">
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="experiencia trabajo">¿Ha trabajado antes?</label></td>
+                    <td>
+                        <input type="radio" name="boton" id="experiencia trabajo" value="1">Si
+                        <input type="radio" name="boton" id="experiencia trabajo" value="2">No
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="fecha">Fecha del último trabajo</label></td>
+                    <td><input type="month" name="fecha" id="fecha"></td>
+                </tr>
+                <tr>
+                    <td><label> Redes sociales</label></td>
+                    <td><input type="checkbox" name="Instagram" id="Instagram"><span><img src="Images/logotipo-de-instagram.png" alt="logo instagram">Instagram</span>
+                    <input type="checkbox" name="Twitter" id="Twitter"><span><img src="Images/logotipo-de-twitter-sobre-fondo-negro.png" alt="logo instagram">Twitter</span>
+                    <input type="checkbox" name="Facebook" id="Facebook"><span><img src="Images/facebook (1).png" alt="logo instagram">Facebook</span>
+                    <input type="checkbox" name="TikTok" id="TikTok"><span><img src="Images/tiktok.png" alt="logo instagram">TikTok</span>
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td><span>Descripción propia para el puesto</span></td>
+                    <td><textarea name="texto" rows="4" cols="20"></textarea></td>
+                </tr>
+                <tr>
+                    <td><label for="email">Email</label></td>
+                    <td><input type="email" name="email" id="email"
+                                required
+                                placeholder="Correo electrónico"></td>
+                </tr>
+
+                <tr>
+                <td><input type="submit" value="Enviar Formulario"></td>
+                </tr>
+            </table>            
+        </form>
+    </div>
+</body>
+</html>
