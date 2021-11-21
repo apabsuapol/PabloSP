@@ -14,7 +14,15 @@ span {
 }
 
 footer {
-    font-family: Arial, Helvetica, sans-serif
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+li {
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 header, section, footer, aside, nav, article {
@@ -46,12 +54,13 @@ header, section, footer, aside, nav, article {
 
 #cabecera {
     text-align: left;
+    float: left;
 }
 
 #menu {
     background: lightskyblue;
-    padding: 20 px 30 px;
-    border: solid 1px gray ;
+    padding: 2px;
+    border: solid 1px gray;
 }
 
 #menu li {
@@ -64,6 +73,7 @@ header, section, footer, aside, nav, article {
     background: navajowhite;
     padding: 15px;
     float: left;
+    width: auto;
 }
 
 #cuerpo {
@@ -109,15 +119,54 @@ header, section, footer, aside, nav, article {
 aside {
     float: left;
 }
+
+#headaside {
+    padding-left: 0px;
+    border: solid rgb(70, 70, 70) 1px;
+    color: rgb(70, 70, 70);
+    padding: 3px;
+}
+
+#listaiconos {
+    border: solid 1px;
+}
+
 #column {
     float: left;
-    width: 120px;
-    margin: 20px 0px;
-    padding: 20px;
-    background: grey;
+    width: 243px;
+    background: rgb(174, 174, 174);
+    border: gray 2px solid;
 }
+
 #column li {
     display: inline-block;
     list-style: none;
     padding: 5px;
+}
+
+#curso {
+    border: solid rgb(70, 70, 70) 1px;
+    color: rgb(70, 70, 70);
+    padding: 3px;
+}
+
+#imghtml5 {
+    align-self: center;
+    border: solid rgb(70, 70, 70) 2px;
+}
+
+#categorias {
+    border: solid rgb(70, 70, 70) 1px;
+    color: rgb(70, 70, 70);
+    padding: 3px;
+}
+
+#listacategorias li {
+    display: block;
+    list-style: georgian;
+    padding: 5px;
+}
+
+#listacategorias span {
+    color: darkcyan;
 }
