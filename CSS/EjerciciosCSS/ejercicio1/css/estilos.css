@@ -1,0 +1,28 @@
+a , p {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: gray
+}
+
+p > a{
+    color: orangered;
+}
+
+div#primero p {
+    color: cornflowerblue;
+}
+
+div#primero p em {
+    color:blue ;
+    background: lightgoldenrodyellow;
+    font-style: italic;
+}
+
+div#segundo span {
+    font-weight: bold;
+}
+
+.especial {
+    color: yellow;
+    background: black;
+}
