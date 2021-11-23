@@ -83,3 +83,19 @@ ul#lista li:last-child {
 #ultimo:visited {
     font-size: small;
 }
+
+input:focus {
+    border: 4px solid blue;
+}
+
+input:enabled {
+
+}
+
+input:disabled {
+
+}
+
+input:checked {
+    
+}
