@@ -1,0 +1,36 @@
+.letraverde {
+    color: green;
+}
+
+strong {
+    color: goldenrod;
+}
+
+em {
+    color: goldenrod;
+}
+
+.negrita {
+    font-weight: bold;
+}
+
+.colorazul {
+    color: blue;
+}
+
+.colormorado {
+    color: darkmagenta;
+    font-weight: bold;
+}
+
+label {
+    color: darkred;
+}
+
+legend {
+    color: darkred;
+}
+
+#colorcyan{
+    color: cyan;
+}
