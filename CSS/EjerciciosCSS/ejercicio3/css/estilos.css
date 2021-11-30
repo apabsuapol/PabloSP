@@ -1,0 +1,9 @@
+#ajusteparrafo {
+    background: gray;
+    width: 225px;
+}
+
+p span {
+    font-weight:bold ;
+    text-decoration: underline
+}
