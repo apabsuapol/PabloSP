@@ -1,0 +1,135 @@
+.contenedor {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+span {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h3 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+}
+
+#letramorada {
+    color: indigo;
+}
+
+#fondoceleste {
+    background: deepskyblue;
+}
+
+#fondoamarillo {
+    background: rgb(255, 203, 125);
+}
+
+#fondosalmon {
+    background: rgb(255, 144, 104);
+}
+
+#letraazul {
+    color: rgb(54, 54, 255);
+}
+
+.header {
+    background: rgb(174, 174, 174);
+    font-weight: bold;
+    font-size: xx-large;
+    color: rgb(40, 40, 68);
+    padding: 20px 10px 20px 15px;
+}
+
+.subheader {
+    text-align: right;
+    font-weight: bold;
+    font-style: italic;
+    font-size: x-large;
+    padding-right: 20px;
+    color: rgb(40, 40, 68);
+}
+
+.body1 {
+    display: flex;
+    flex-direction: row;
+}
+
+.body11 {
+    width: 33.33%;
+    border-radius: 40px 0 40px 0;
+    border: solid black 1px;
+    padding: 0 10px 0 10px;
+    text-align: justify;
+    margin: 10px;
+}
+
+.contenedorimagen {
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    justify-content:center ;
+}
+
+.imagen {
+    width: 50px;
+}
+
+#tamañomontaña {
+    width: 70px;
+}
+
+#tamañoconejo {
+    width: 70px;
+}
+
+.body2 {
+    text-align: center;
+    border-radius: 40px 0 40px 0;
+    border: solid black 1px;
+    padding: 5px 20px 20px 20px;
+    margin: 5px;
+    background: darkgray;
+}
+
+.body21 {
+    border-radius: 40px 0 40px 0;
+    border: solid black 1px;
+    padding: 30px;
+    text-align: justify;
+    background: gainsboro;
+    
+}
+
+.video-container {
+    margin: 0 auto;
+    align-items: center;
+    overflow:hidden;
+    position:relative;
+    height:275px;
+    text-align: center;
+    margin-top: 15px;
+    
+
+}
+
+.video-container iframe, .video-container object, .video-container embed {
+    top:0;
+    left:0;
+    width:325px;
+    height:275px;
+}
+
+.foot {
+    text-align: center;
+    background: rgb(33, 33, 33);
+    padding: 5px;
+    font-size: small;
+}
+
+.foot span {
+    color: white;
+}

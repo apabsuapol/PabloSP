@@ -23,13 +23,17 @@ article {
 }
 
 #articulo-1 {
-    background-color: chocolate;
+    background: chocolate;
 }
 
 #articulo-2 {
-    background-color: chocolate;
+    background: coral;
 }
 
 #articulo-3 {
-    background-color: chocolate;
+    background: cyan;
+}
+
+.img {
+    width: 100%;
 }

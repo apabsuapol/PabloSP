@@ -5,37 +5,43 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Media</title>
+
     <style type="text/css">
-        @media only screen and (max-width:1500px) and (min-width: 547px) {
+        @media only screen and (max-width: 1500px) 
+                            and (min-width: 547px) 
+        {
             body {
                 background: blue;
-            }
+            }    
             p {
                 font-size: xx-large;
                 color: white;
             }
         }
-        @media only screen and (max-width:794px) and (min-width: 500px) {
+        @media only screen and (max-width: 794px) 
+                            and (min-width: 547px) 
+        {
             body {
                 background: red;
-            }
+            }   
             p {
                 font-size: medium;
-                color: black;
-            }
+                color: gray;
+            } 
         }
-        @media only screen and (max-width:547px) {
+        @media only screen and (max-width: 547px) 
+        {
             body {
                 background: green;
-            }
+            }    
             p {
-                font-size: small;
+                font-size: xx-small;
                 color: yellow;
             }
         }
         @media print {
             * {
-                font-family: cursive;
+                font-family: 'Times New Roman', Times, serif;            
             }
         }
 
@@ -44,19 +50,19 @@
             span {
                 font-size: 80px;
             }
-
         }
 
-        @media all and (orientation: portrait)
+        @media all and (orientation: portrait) 
         {
             span {
                 font-size: 8px;
-            }
+            }            
         }
     </style>
+
 </head>
 <body>
     <p>INICIO</p>
-    <span>Texto</span>
+    <span>TEXTO</span>
 </body>
 </html>
