@@ -1,0 +1,20 @@
+#fondoamarillo {
+    background-color: yellow;
+}
+
+#letraroja {
+    color: red;
+}
+
+.negritabordemorado {
+    font-weight: bold;
+    border: blueviolet solid 2px;
+}
+
+#fondoceleste {
+    background-color: dodgerblue;
+}
+
+#fondoverde {
+    background-color: forestgreen;
+}
