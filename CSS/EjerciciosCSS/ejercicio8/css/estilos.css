@@ -1,0 +1,49 @@
+p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: large;
+}
+
+h2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+
+.contenedor {
+    display: flex;
+    flex-direction: row;
+}
+
+.ficha {
+    display: flex;
+    flex-direction: row;
+    width: 20%;
+    margin: 10px;
+    
+}
+
+.imagen {
+    text-align: center;
+    font-size: 100px;
+    border: 2px solid black;
+}
+
+.parte {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border: 2px solid black;
+    padding: 5px;
+}
+
+.titulo {
+    font-weight: bold;
+    font-size: x-large;
+    text-align: top;
+    border: 2px solid black;
+    background: gray;
+}
+
+.cuerpo {
+    text-align: justify;
+    border: 2px solid black;
+}
