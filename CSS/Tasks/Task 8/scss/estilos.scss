@@ -1,0 +1,34 @@
+$fuente: Arial, sans-serif;
+$primary-color: rgba(255, 0, 0, 0.912);
+$seleccionado: rgba(255, 255, 255, 0.981);
+$negro: rgb(0, 0, 0);
+$color-fondo: rgba(204, 204, 204, 0.987);
+
+html{
+  background-color: $color-fondo;
+}
+
+body{
+  font: 100% $fuente;
+  color: $primary-color;
+}
+
+nav{
+  ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    color: $seleccionado;
+  }
+
+  li{
+    display: inline-block;
+  }
+
+  a{
+    display: block;
+    padding: 6px 12px;
+    text-decoration: none;
+    color: $negro;
+  }
+}
