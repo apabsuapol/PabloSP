@@ -1,0 +1,17 @@
+.success {
+    border: darkgreen;
+    background: lightgreen;
+    color: white;
+}
+
+.error {
+    border: darkred;
+    background: red;
+    color: white;
+}
+
+.warning {
+    border: darkgoldenrod;
+    background: yellow;
+    color: white;
+}
